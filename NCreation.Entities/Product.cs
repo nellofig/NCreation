@@ -8,7 +8,7 @@ namespace NCreation.Entities
 {
     public class Product : BaseEntity
     {
-        // Reference the category
+        // Reference the category entity
         public Category Category{ get; set; }
         public decimal Price { get; set; }
     }
